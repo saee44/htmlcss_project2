@@ -128,22 +128,33 @@ a{
 }
 
 .descriptionbox{
+    height: 85%;
+    width: 100%;
     
     margin-top: 2.5rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 9rem;
     /* background-color: blue; */
+    /* border: 2px solid red; */
+    position: relative;
+    box-sizing: border-box;
+
+
     
 }
 .backimage{
     /* border: 2px solid black; */
     
-    height: 30%;
+    height: 100%;
     width: 30%;
     object-fit: cover;
     /* margin-bottom: 3rem; */
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
+    position: absolute;
+    right: 10rem;
+    bottom: 0;
+   
     
     
 }
