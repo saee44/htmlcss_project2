@@ -1,0 +1,995 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#landingpage{
+    height: 130vh;
+    width: 100%;
+    /* box-sizing: border-box; */
+    background-color:white;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+
+
+}
+#allinonepart{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+#landingpagefooter{
+    height: 45vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#252641;
+   
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.headerbg{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid black; */
+    
+    background-color: #00CBB8;
+  
+  border-bottom-left-radius: 120% 15rem;
+  border-bottom-right-radius: 120% 15rem;
+  padding-left: 8em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navbarbox{
+    height: 10%;
+    width: 90%;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.companylogo{
+    height: 80%;
+    width:6%;
+    object-fit: cover;
+    margin-right: 2.2rem;
+    
+}
+.nevboxright{
+    width: 65%;
+}
+.navmenubox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+.navbutton1{
+    width: 100px;
+    padding: 0.5rem;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    margin-left: 3rem;
+    
+    
+    
+    
+}
+.navbutton2{
+    width: 100px;
+    padding: 0.5rem;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: transparent;
+    margin-right: 2rem;
+    background-color: rgba(245, 245, 245, 0.479);
+    color: white;
+    border: 1px solid rgba(245, 245, 245, 0.159);
+    
+    
+    
+}
+
+.descriptionbox{
+    
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9rem;
+    /* background-color: blue; */
+    
+}
+.backimage{
+    /* border: 2px solid black; */
+    
+    height: 30%;
+    width: 30%;
+    object-fit: cover;
+    /* margin-bottom: 3rem; */
+    margin-right: 10rem;
+    
+    
+}
+.landingpara{
+    /* padding: 1rem; */
+    /* border: 2px solid black; */
+    /* background-color: aqua; */
+    height: 30%;
+    width: 35%;
+    margin-top: 4rem;
+    
+    
+    
+}
+.studying{
+    font-size: 40px;
+    font-weight: 900;
+    color: orange;
+
+}
+
+
+.landingpageheadline{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.headlinedescr{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}
+.landingparabox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-right:3rem;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    
+    
+    
+}
+.joinbutton{
+    width: 120px;
+    height: 50px;
+    padding: 0.7rem;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: transparent;
+    
+    background-color: rgba(245, 245, 245, 0.479);
+    color: white;
+    border: 1px solid rgba(245, 245, 245, 0.159);
+    font-size: 17px;
+    
+    
+}
+
+.playiconbg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+.playicon{
+    height: 30%;
+    width: 30%;
+    /* object-fit: cover; */
+    
+    
+}
+.landinglastline{
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.numberbox{
+    height: 20%;
+    width: 80%;
+    /* border: 2px solid black; */
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Buenos Aires Trial', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+   
+}
+.numbers{
+   font-size: 60px;
+    /* border: 2px solid black; */
+    padding: 0;
+    margin: 0;
+    font-family: 'Buenos Aires Trial', sans-serif;
+    background: linear-gradient(90deg, #136CB5, #49BBBD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: 100;  
+}
+.numberspan{
+    font-family: 'Buenos Aires Trial', sans-serif;
+}
+/* second screen */
+.allinoneheadline{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    margin-top: 8rem;
+    gap: 0.5rem;
+    
+}
+.headlinetext1{
+    color: #2F327D;
+    font-size: 25px;
+    font-weight: 700;
+}
+.headlinetext2{
+    color: #00CBB8;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.allinonepara{
+    color: #696984;
+    font-size: 15px;
+   
+    text-align: center;
+    margin-bottom: 6rem;
+    width: 30%;
+    line-height: 180%;
+    word-spacing: 2%;
+    /* border: 2px solid red; */
+    
+}
+.allinonesection2{
+    width: 55%;
+    height: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+.infoboxes{
+    height: 100%;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 53px -13px lightgrey;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: relative;
+}
+.iconbg1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #5B72EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -12%;
+
+}
+.firsticon{
+    object-fit: contain;
+    height: 88%;
+    width: 42%;
+    object-position: 0px 8px;
+    
+    
+}
+.iconbg2{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #00CBB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -12%;
+
+}
+.iconbg3{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #00CBB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -12%;
+
+}
+.infoboxheadline{
+    color: #2F327D;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+.infoboxpara{
+    color: #696984;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+/* footer section */
+
+.footerheadingbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black; */
+
+}
+.companylogo2{
+    height: 70%;
+    width: 30%;
+    margin-right: 2.5rem;
+}
+.virtualclassbox{
+    border-left: 1px solid #626381;
+    padding: 1rem;
+
+}
+.virtualclasstext{
+    color: white;
+    font-size: 12px;
+}
+.subscirbebox{
+    /* border: 1px solid aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+.Subscribetext{
+    color: #B2B3CF;
+    font-size: 15px;
+    letter-spacing: 5%;
+}
+.optioncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 50%;
+    width: 120%;
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    box-sizing: border-box;
+}
+.emialbox{
+    width: 120%;
+    border: 1px solid #83839A;
+    /* height: 100%; */
+    margin-right: 1rem;
+    padding: 0.3rem;
+    border-radius: 20px;
+    text-align: start;
+
+
+
+}
+.emailtext{
+    
+    font-size: 12px;
+    letter-spacing: 4%;
+    color: #626381;
+     margin-right: 3rem;
+     letter-spacing: 4%;
+
+   
+}
+.Subscribebutton{
+    height: 100%;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: #49BBBD;
+    text-align: center;
+    box-sizing: border-box;
+    
+
+}
+.Subscribebuttontext{
+    color: white;
+    font-size: 12px;
+    /* margin: 3rem; */
+    
+    text-align: center;
+    
+}
+.footerlastbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footeroptions{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 0.5rem;
+
+
+}
+
+.footeroptiontext{
+    font-size: 12px;
+    color: #B2B3CF;
+    border-right: 1px solid #626381;
+    /* margin-right: 0.2rem; */
+    padding-right: 0.3rem;
+  
+}
+.footeroptiontext3{
+    font-size: 12px;
+    color: #B2B3CF;
+    
+}
+.copyrightnotice{
+    font-size: 12px ;
+    color: #B2B3CF;
+    margin-top: 1rem;
+
+}
+/* course section */
+#coursesheadingsection{
+    height: 100vh;
+    width: 100%;
+    
+    /* background-color: #136CB5; */
+}
+/* course nav bar --------------------------------------------------------------------------------------------------*/
+.coursenavbox{
+    width: 100%;
+    height: 2%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    
+
+}
+.companylogo3{
+    height: 46px;
+    width: 60px;
+    object-fit: cover;
+    margin-left: 4.5rem;
+}
+.navoptionbar{
+    width: 60%;
+    /* border:1px solid blue ; */
+    display: flex;
+    
+    gap: 2rem;
+    box-sizing: border-box;
+    
+
+
+}
+.coursenavoptions{
+    width: 70%;
+    list-style-type: none;
+    color: #5B5B5B;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:1px solid black ; */
+    margin-left: 8rem;
+}
+.nav-link{
+    text-decoration: none;
+    margin: 1rem;
+    color: #5B5B5B;
+
+}
+.profilebox{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 5rem;
+    box-sizing: border-box;
+}
+.circularpp{
+    height: 30px;
+    width: 30px;
+    clip-path: circle();
+    object-fit: cover;
+    /* border: 1px solid lightgray; */
+    object-position:  1px 2px;
+    background-color: lightgray;
+    overflow: hidden;
+    
+}
+.username{
+    font-size: 12px;
+    color: black;
+    /* border:1px solid black ; */
+   
+    text-align: center;
+    font-weight: 500;
+
+}
+/* navbar ends here -------------------------------------------------------------------------------------------------------*/
+.coursecontentbox{
+    height: 80%;
+    width: 100%;
+    background-color: #9dccff4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* overflow: scroll;
+    flex-wrap: wrap; */
+    /* padding-right: 3rem; */
+   
+    /* padding: 3rem; */
+    
+
+    
+
+
+}
+.courseheadlinebox{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+}
+.welcomeline{
+    color: #252641;
+    font-size: 28px;
+    font-weight: 700;
+}
+.hisotry{
+    font-size: 12px;
+    color: #49BBBD;
+    font-weight: 400;
+}
+.courseboxes{
+    height: 50%;
+    width: 85%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* border:1px solid black ; */
+    /* margin: 0.5rem; */
+    overflow: scroll;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    gap: 3rem;
+
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    
+    
+}
+.childcoursebox{
+    width: 30%;
+    height: 100%;
+    border:1px solid white ;
+    border-radius: 20px;
+    background: white;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+
+}
+.courseimage{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.awsline{
+    font-size: 20px;
+    color: #252641;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+.courseboxprofile{
+    display: flex;
+     /* border: 1px solid lightgray; */
+     align-items: center;
+     gap: 0.5rem;
+     margin-top: 0.5rem;
+
+
+}
+.courseprofilepic{
+    height: 30px;
+    width: 30px;
+    clip-path: circle();
+    object-fit: cover;
+    /* border: 1px solid lightgray; */
+    object-position:  1px 2px;
+    background-color: lightgray;
+    overflow: hidden;
+    
+}
+.courseusername{
+    font-size: 10px;
+    color: black;
+    
+
+
+}
+.progresslinebox{
+    display: flex;
+
+    height: 2%;
+    width: 100%;
+    /* background-color: #00CBB8; */
+    margin-top: 0.5rem;
+    
+}
+.completedpartline{
+    height: 100%;
+    width: 80%;
+    background-color: #49BBBD;
+
+}
+.remiaingline{
+    height: 100%;
+    width: 20%;
+    background-color: #D9D9D9;
+
+}
+.lessonnumberbox{
+    display: flex;
+    justify-content: end;
+    margin: 0.5rem;
+    letter-spacing: 5%;
+}
+.lessonnumber{
+    font-size: 10px;
+    color: #00000080;
+    text-align: end;
+    
+
+}
+.frontbackbuttons{
+    height: 5%;
+    width: 7%;
+    object-fit: cover;
+    align-self: flex-end;
+    margin-left: 19rem;
+    margin-top: 2rem; 
+    margin-right: 9rem;  
+}
+/* course category page */
+#categorysection{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    padding: 1rem;
+    padding-left: 7rem;
+    
+
+}
+.categorypageheadline{
+    font-size: 25px;
+    color: #252641;
+    font-weight: 600;
+    margin-left: 2rem;
+
+}
+.categoryparentdiv{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 75%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.categorychilddiv{
+    height: 45%;
+    width: 100%;
+    /* background-color: #252641 */
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    
+    
+    
+}
+.smallcourseboxes{
+    height: 100%;
+    width: 22%;
+    /* background-color: rgb(20, 56, 20); */
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 53px -13px lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+
+
+}
+.categorylogobg{
+    height: 22%;
+    width: 20%;
+    background-color: #49BBBD4D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categorylogo{
+    height: 35%;
+    width: 35%;
+    object-fit: cover;
+    
+}
+.categorynames{
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: black;
+    font-weight: 600;
+}
+.categorypara{
+    font-size: 12px;
+    color: #696984;
+    font-weight: 400;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+/* third box */
+#thirdbox{
+    height: 60vh;
+    width: 100vw;
+    /* background-color: #5B5B5B; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   box-sizing: border-box;
+ 
+}
+.bluebgbox{
+    width: 75%;
+    height: 60%;
+    background-color: #252641;
+    margin-right: 5rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+.blueboxheadline{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    
+   
+}
+.blueboxpara{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.556);
+    line-height: 180%;
+    font-weight: 200;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 4%;
+  
+}
+.startlearningbutton{
+    height: 14%;
+    width: 12%;
+    background-color: #49BBBD;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3rem;
+    
+}
+.startlearningtext{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+/* course sction footer */
+
+
+
+#coursefooter{
+    height: 45vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#252641;
+   
+    /* border: 2px solid black; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: rem; */
+
+}
+/* ABOUT US PAGE */
+#aboutfirstsection{
+    height: 100vh;
+    width: 100vw;
+   
+}
+.aboutimage{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -10px;
+}
+.aboutheadline{
+    font-size: 28px;
+    font-weight: 600;
+    color: #2F327D;
+    margin: 3rem;
+    margin-left: 7rem;
+   
+}
+#aboutmiddlesection{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: black; */
+    padding-left: 7rem;
+    padding-right: 7rem;
+    box-sizing: border-box;
+}
+.aboutpara1{
+    font-size: 14px;
+    font-weight: 400;
+    color: #696984;
+    line-height: 180%;
+    letter-spacing: 6%;
+
+}
+.aboutpara2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #696984;
+    line-height: 180%;
+    letter-spacing: 6%;
+    margin-top: 2rem;
+
+}
+.aboutsmallboxes{
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+}
+.featurebutton1{
+height: 65%;
+width: 25%;
+/* background-color: black; */
+margin-right: 2rem;
+border-radius: 20px;
+border: none;
+background-color: #49BBBD1A;
+
+}
+.featurebuttontext{
+    color: #696984;
+    font-size: 13px;
+}
+.followbuttondiv{
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    border-bottom: 2px solid #6969846a;
+    margin-top: 1rem; 
+
+}
+.followbutton{
+    width: 15%;
+    height: 70%;
+    background-color: white;
+    border: 2px solid #49BBBD;
+    border-radius: 10px;
+}
+.followtext{
+  color:#49BBBD ;
+    font-size: 12px;
+    font-weight: 900;
+}
+/* about footer */
+
+
+#aboutfooter{
+
+            height: 45vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#252641;
+   
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
